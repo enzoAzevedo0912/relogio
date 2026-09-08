@@ -1,0 +1,39 @@
+@font-face {
+    font-family: relogio;
+    src: url(/fontes/DS-DIGIB.TTF);
+}
+
+
+body{
+    height: 100vh;
+    background: url(/images/Gemini_Generated_Image_rvd7fcrvd7fcrvd7.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.central{
+    background: #f7f7f700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+.central div{
+    background: rgba(0, 0, 0, 0.138);
+    color: #000000;
+    padding: 20px;
+    border-radius: 50%;
+    font-size: 75px;
+    backdrop-filter: blur(2px);
+    font-family: relogio;
+}
+
+.central span{
+    font-size: 75px;
+    color: rgb(93, 58, 247);
+}
